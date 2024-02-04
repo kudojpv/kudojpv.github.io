@@ -1,0 +1,21 @@
+// Base 1 - kudojpv - all base story
+// File duy nhất của base 1 - không xóa.
+// Bản base 1 & 2 sẽ có vài thứ giống python gì đó....
+
+import kudovs as base
+from kudovs.base import BaseLoad
+
+baseload = BaseLoad.BaseLoad(prefix_load="&") // baseload prefix active
+
+baseload.gh_cli_clone(prefix("gh repo clone kudojpv/base"))
+
+base.Base(load_baseload)
+
+function baseload():
+	print("Base is Loading..")
+
+async def ready():
+	baseload()
+// upload base
+base.UploadBase(baseload)
+// Base 1 sẽ có mặt tại https://github.com/kudojpv/kudojpv.github/tree/main/all_base/base1 / https://github.com/kudojpv/base/tree/main/base1
