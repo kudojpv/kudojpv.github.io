@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap');
+body {
+    background-color: #5ca0dd;
+    font-family: Fredoka;
+}
+.copyright {
+    background-color: #dd685c;
+    font-family: Honk;
+}
